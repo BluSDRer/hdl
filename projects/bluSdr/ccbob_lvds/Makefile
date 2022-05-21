@@ -1,6 +1,5 @@
 ####################################################################################
-## Copyright (c) 2018 - 2021 Analog Devices, Inc.
-### SPDX short identifier: BSD-1-Clause
+## Copyright 2018(c) Analog Devices, Inc.
 ## Auto-generated, do not modify!
 ####################################################################################
 
@@ -11,15 +10,14 @@ M_DEPS += ../common/ccbob_bd.tcl
 M_DEPS += ../common/blusdr_constr_lvds.xdc
 M_DEPS += ../common/blusdr_constr.xdc
 M_DEPS += ../common/blusdr_bd.tcl
-M_DEPS += ../../scripts/adi_pd.tcl
-M_DEPS += ../../../library/common/ad_iobuf.v
+M_DEPS += ../../../library/xilinx/common/ad_iobuf.v
 M_DEPS += ../../../library/axi_ad9361/axi_ad9361_delay.tcl
 
 LIB_DEPS += axi_ad9361
 LIB_DEPS += axi_dmac
-LIB_DEPS += axi_gpreg
 LIB_DEPS += axi_sysid
 LIB_DEPS += sysid_rom
+LIB_DEPS += axi_gpreg
 LIB_DEPS += util_pack/util_cpack2
 LIB_DEPS += util_pack/util_upack2
 LIB_DEPS += util_rfifo
